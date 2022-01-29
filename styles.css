@@ -31,10 +31,12 @@ svg {
   display: block;
   max-width: 100%;
   border-radius: 40%;
-  width: 250px;
+  width: 200px;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid #df03fc;
+  object-fit: cover;
 }
 input,
 button,
@@ -58,7 +60,7 @@ h6 {
 
 p {
   font-size: 30px;
-  margin: 30px;
+  margin: 50px;
   font-weight: bolder;
 }
 
@@ -87,7 +89,11 @@ input[type="submit"] {
     font-size: 15px;
   }
   body {
-    padding: 50px;
+    padding: 40px;
+  }
+  img {
+    width: 150px;
+    height: 150px;
   }
 }
 
