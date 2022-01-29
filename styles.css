@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background: url(./vapourwave-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: Merriweather;
+    color: beige;
+    font-size: 25px;
+    padding: 80px;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    border-radius: 40%;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #df03fc ;
+    
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  p{
+      margin: 30px;
+
+  }
+
+  input{
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+ }
+
+ input[type="submit"] {
+     background-color: red;
+     color: white;
+
+ }
